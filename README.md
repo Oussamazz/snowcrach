@@ -103,5 +103,3 @@ Find the project on GitHub: [Snow Crash GitHub Repository](https://github.com/Ou
 - Avoid brute-forcing SSH flags; solutions must be justified.
 - Use external software when needed, and set up specific environments.
 - Create scripts to streamline tasks and provide explanations during evaluation.
-
-## Good Luck & Have Fun!
