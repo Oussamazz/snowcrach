@@ -1,0 +1,48 @@
+
+### Chapter II: Introduction
+- Emphasizes the responsibility of developers in securing software.
+- Highlights the need to understand techniques used for exploiting weaknesses.
+- Describes the project as an introduction to cyber security.
+
+### Chapter III: Objectives
+- Aims to introduce cyber security through various challenges.
+- Encourages the use of complex methods to gain a new perspective on IT.
+- Focuses on developing logical thinking skills.
+
+### Chapter IV: General Instructions
+- Evaluation by humans is mentioned.
+- Proving results during evaluation is required.
+- Instructions for using a VM (Virtual Machine) and connecting via SSH on a specific port.
+- Usage of external software and SCP command is encouraged.
+- Warnings about limited rights in certain folders and the need to avoid direct work on the machine.
+- Encouragement to troubleshoot and report true bugs to the educational team.
+- Use of forums, Jabber, IRC, Slack for communication and asking questions.
+
+### Chapter V: Mandatory Part
+- Repository structure and content requirements outlined.
+- Levels from level00 to level09 are listed as mandatory.
+- Instructions on keeping resources in a separate folder and explaining anything included in the folder.
+- Prohibition on including any binaries in the folder.
+- Specifics about downloading files during evaluation and not including them in the repository.
+
+### Chapter VI: Bonus Part
+- Bonus levels (level10 to level14) are mentioned.
+- The bonus part will be considered only if the mandatory part is perfect.
+- Emphasis on perfection in the mandatory part.
+
+### Chapter VII: Submission and Peer-Evaluation
+- Standard submission through a Git repository is required.
+- Only the work inside the repository will be evaluated during the defense.
+
+### Additional Guidance:
+- Develop scripts that enhance your skills, but be prepared to explain them during evaluation.
+- Strive for perfection in the mandatory part before attempting the bonus levels.
+- Document your approach, solutions, and any scripts clearly in your repository.
+- Pay attention to folder and file names as they will be evaluated.
+
+### Next Steps:
+1. Start with the mandatory levels (level00 to level09) and focus on perfecting your solutions.
+2. Document your process, code, and any additional resources thoroughly in your repository.
+3. If the mandatory part is flawless, consider attempting the bonus levels (level10 to level14).
+4. Follow the submission guidelines for the Git repository.
+
