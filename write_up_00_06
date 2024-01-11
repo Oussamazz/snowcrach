@@ -1,0 +1,42 @@
+
+### Level 00:
+
+**Discovery:**
+- Located a file named `john` in `/usr/sbin`.
+
+**Decryption:**
+- Used [https://www.dcode.fr/caesar-cipher](https://www.dcode.fr/caesar-cipher) to decrypt the code in the `john` file.
+- Obtained the decrypted message: `nottoohardhere`.
+
+**Accessing Passwords:**
+- Executed `cat /etc/passwd` to discover user information.
+- Identified `flag01` with the encrypted password: `42hDRfypTqqnw`.
+- Used John The Ripper to decrypt the password: `abcdefg`.
+
+**Wireshark Analysis:**
+- Opened a file in the home directory using Wireshark.
+- Extracted the password: `ft_wandrNDRelL0L`.
+
+**Exploiting Level 03:**
+- Executed `level03`.
+- Discovered the message "Exploit me."
+- Used `ltrace` to analyze system calls.
+- Exploited with the command injection: `http://localhost:4747/?x={`getflag`}`.
+
+**Mail Analysis (Level 05):**
+- Checked the mail for `level05` using `cat /var/spool/mail/level05`.
+- Found a script scheduled to run every 2 minutes: `su -c "sh /usr/sbin/openarenaserver" - flag05`.
+
+**Exploiting openarenaserver (Level 05):**
+- Created a script in `/opt/openarenaserver/` to execute `getflag`.
+- Waited for the scheduled script to run.
+
+### Level 06:
+
+**Analysis of level06.php:**
+- Reviewed the PHP code in `level06.php`.
+- Identified the use of the deprecated `/e` modifier in regular expressions.
+- Crafted a PHP code that matches the regex and executes `getflag`.
+- Used `ltrace` to discover that the code retrieves `LOGNAME` from the environment.
+- Exported `Logname` with the value of `getflag` to obtain the flag.
+
