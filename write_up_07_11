@@ -1,0 +1,38 @@
+
+### Level 07:
+
+**Analysis of Level 07:**
+- Investigated the environment and found a scheduled script in the mail for `level07`.
+- The script executes every 2 minutes and runs `/usr/sbin/openarenaserver`.
+- Created a script in `/opt/openarenaserver/` to execute `getflag`.
+- Waited for the scheduled script to run and retrieved the flag.
+
+### Level 08:
+
+**Exploiting Level 08:**
+- Analyzed the code using `ltrace` and identified the use of `strstr("token", .. )`.
+- Linked the `token` file to another file and read the second one to obtain the flag.
+- Executed `ln -s ~/token /tmp/tt`.
+
+### Level 09:
+
+**Analysis of Level 09:**
+- Understood that the program increments each character in the input by its order.
+- Created a script to decrement the input and read the `token`.
+- Used `access()` to check authorization before opening a file, and exploited it.
+- Created a tmp file, linked it with `token`, and read the flag.
+
+### Level 10:
+
+**Exploiting Level 10:**
+- The program sends a file to the host, checks permissions using `access()`.
+- Created a tmp file, provided it to `access`, and linked it with `token` to read the flag.
+- Executed a loop to exploit the file continuously.
+
+### Level 11:
+
+**Exploiting Level 11:**
+- Examined the LUA code.
+- Connected to localhost on port 5151 using `nc`.
+- Provided the password "echo `getflag` > /tmp/res" to obtain the flag.
+
