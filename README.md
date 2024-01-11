@@ -2,6 +2,7 @@
 
 Welcome to Project SECURITY - Snow Crash! This project serves as an introduction to cybersecurity, providing challenges and tasks to enhance your skills in various fields of cybersecurity. You'll encounter different levels with tasks that require logical thinking and problem-solving.
 
+![Wallpaper](wallpaper.jpg)
 ## Project Structure
 
 The project is divided into multiple levels, each presenting unique challenges. Below is a brief overview of the initial levels:
