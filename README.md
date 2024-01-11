@@ -93,11 +93,6 @@ To begin the project, follow these general instructions:
 2. Connect to the VM using SSH on port 4242.
 3. Explore each level and complete the challenges.
 
-## Repository Link
-
-Find the project on GitHub: [Snow Crash GitHub Repository](https://github.com/Oussamazz/snowcrach)
-
-
 ## Notes
 
 - Avoid brute-forcing SSH flags; solutions must be justified.
