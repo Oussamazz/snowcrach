@@ -94,7 +94,4 @@ To begin the project, follow these general instructions:
 3. Explore each level and complete the challenges.
 
 ## Notes
-
-- Avoid brute-forcing SSH flags; solutions must be justified.
-- Use external software when needed, and set up specific environments.
-- Create scripts to streamline tasks and provide explanations during evaluation.
+...
